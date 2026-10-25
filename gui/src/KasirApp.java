@@ -41,7 +41,6 @@ public class KasirApp extends JFrame implements ActionListener {
         add(new JScrollPane(areaStruk), BorderLayout.CENTER); 
         add(panelBawah, BorderLayout.SOUTH);
 
-        // Event Handling
         btnTambah.addActionListener(this);
         btnReset.addActionListener(this);
         chkMember.addItemListener(new ItemListener() {     
